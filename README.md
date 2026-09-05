@@ -23,7 +23,7 @@ volumes.geojson:
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
   - To check data by vertical limits, the following website is created (Data from the main branch is used): [AIRSPACES-MAP](https://cdm.vatsimspain.es/airspaces-map.html)
-  - ID must be UPPERCASE.
+  - ID must be UPPERCASE and must include the first two letter of the FIR. Example for Spain: "LE-airblockName".
 
 procedures.txt
   - Format ``<AIRPORT>:SID:<letters or procedures name>:STAR:<letters or procedures name>`` example: ``LEBL:SID:SENIA%Q,LARPA%Q,T:STAR:BISBA%W,LESBA%W,Z,Q``
